@@ -158,3 +158,5 @@ cython_debug/
 .vscode/
 
 docs/source/_build/html/
+
+.DS_Store

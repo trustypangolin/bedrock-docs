@@ -1,7 +1,7 @@
 Welcome to Bedrock's documentation!
 ===================================
 
-**Bedrock** is a landing zone generator
+**Bedrock** is an AWS landing zone generator
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
