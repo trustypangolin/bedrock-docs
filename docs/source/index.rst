@@ -1,22 +1,29 @@
-Welcome to Lumache's documentation!
+Welcome to Bedrock's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Bedrock** is an AWS landing zone generator utilising either CloudFormation or Terraform
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`usage` section to get your landing zone code
+
 
 .. note::
 
-   This project is under active development.
+    This project is under active development.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+    usage
+    usage/first
+    tf
+    cfn
+    hld
+    hld/mgmt
+    hld/security
+    hld/central
+    hld/operational
+    faq
+
+Bedrock has its documentation hosted on Read the Docs.

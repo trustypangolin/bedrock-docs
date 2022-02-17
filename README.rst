@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
+Read the Docs Bedrock
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://bedrock-docs.readthedocs.io/en/latest/
