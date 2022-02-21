@@ -22,7 +22,7 @@ Operational Excellence Design
 Cost Optimisation Design
 ----------------------
 
-.. image:: drawio/Bedrock-Central-CostOptimisation.png
+.. image:: drawio/Bedrock-Central-CostOp.png
   :alt: Cost Optimisation High Level Design
 
 Reliability Design

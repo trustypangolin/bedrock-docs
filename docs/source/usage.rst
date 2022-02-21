@@ -87,6 +87,18 @@ You will need the AWS CLI tools and a local copy of Terraform installed
 #. configure your ``~/.aws/config`` file for SSO and use ``aws sso login --profile <your profile>``
 #. Ensure the credentials/profile is set as default by setting ``export AWS_PROFILE=<your profile>``
 
+Typical ``~/.aws/config`` file setup
+
+.. code-block:: console
+
+    [profile bedrock]
+    sso_start_url = https://d-1234567890.awsapps.com/start
+    sso_region = ap-southeast-2
+    sso_account_id = 111111111111
+    sso_role_name = AdministratorAccess
+    region = ap-southeast-2
+    output = json
+
 You should now have admin access to the account via SSO, confirmed by running a simple cli command such as ``aws organizations list-roots`` should return organizations values for the Management account Id 
 
 You now need a way for GitHub/GitLab/BitBucket to have access to your new AWS account, there is some terraform files in the /tf folder that will allow you bootstrap the various OIDC and roles required
