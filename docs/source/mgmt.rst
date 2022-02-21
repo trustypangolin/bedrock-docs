@@ -4,35 +4,35 @@ Management
 .. autosummary::
     :toctree: generated
 
-    Bedrock
+Overall Managment Account Architecture
 
-Account Design
+Management Account Design
 ----------------------
 
-.. image:: images/Management-Account.png
+.. image:: drawio/Bedrock-Management.png
   :alt: Management Account High Level Design
 
 
 Operational Excellence Design
 ----------------------
 
-.. image:: images/Management-OperationalExcellence.png
+.. image:: drawio/Bedrock-Management-Operational.png
   :alt: Operational Excellence High Level Design
 
 Cost Optimisation Design
 ----------------------
 
-.. image:: images/Management-CostOptimisation.png
+.. image:: drawio/Bedrock-Management-CostOp.png
   :alt: Cost Optimisation High Level Design
 
 Reliability Design
 ----------------------
 
-.. image:: images/Management-Reliability.png
+.. image:: drawio/Bedrock-Management-Reliability.png
   :alt: Reliability High Level Design
 
 Security Design
 ----------------------
 
-.. image:: images/Management-Security.png
+.. image:: drawio/Bedrock-Management-Security.png
   :alt: Security High Level Design

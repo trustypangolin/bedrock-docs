@@ -7,6 +7,15 @@ High Level Design
 Overall Account Design
 ----------------------
 
-.. image:: images/bedrock.png
+.. image:: drawio/Bedrock-AccountOverall.png
   :alt: Landing Zone High Level Design
 
+Contents
+--------
+
+.. toctree::
+
+    mgmt
+    security
+    central
+    operational
