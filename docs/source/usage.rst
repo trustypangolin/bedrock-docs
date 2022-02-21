@@ -46,26 +46,26 @@ Add The Variables in your Git Secrets
      - ``111111111111``
      - | Your 12 digit AWS Management Account ID
    * - ``BEDROCK_TF_STATE`` (Optional)
-     - ``dGVycmFmb3JtIHsKICBiYWNrZW5kICJzMyIge``
-       ``wogICAgcmVnaW9uICAgICAgICAgPSAiYXAtc2``
-       ``91dGhlYXN0LTIiCiAgICBkeW5hbW9kYl90YWJ``
-       ``sZSA9ICJiZWRyb2NrLXRmc3RhdGUiCiAgfQp9``
+     - | ``dGVycmFmb3JtIHsKICBiYWNrZW5kICJzMyIge``
+       | ``wogICAgcmVnaW9uICAgICAgICAgPSAiYXAtc2``
+       | ``91dGhlYXN0LTIiCiAgICBkeW5hbW9kYl90YWJ``
+       | ``sZSA9ICJiZWRyb2NrLXRmc3RhdGUiCiAgfQp9``
      - | Single line Base64 version of the ``remote_state.tf``
        | Note that Key and Bucket are not included. 
    * - ``BEDROCK_TF_VARS`` (Optional)
-     - ``dW5pcXVlX3ByZWZpeCA9ICJpbmRpZ29jYXB5Ym``
-       ``FyYSIgIApiYXNlX3JlZ2lvbiA9ICJhcC1zb3V0``
-       ``aGVhc3QtMiIKcm9vdF9lbWFpbHMgPSB7CiAgIl``
-       ``NlY3VyaXR5IiAgID0gImF3cytiZWRyb2NrLnNl``
-       ``Y0Bkb21haW4iCiAgIlNoYXJlZCIgICAgID0gIm``
-       ``F3cytiZWRyb2NrLnNoYXJlZEBkb21haW4iCiAg``
-       ``IlByb2R1Y3Rpb24iID0gImF3cytiZWRyb2NrLn``
-       ``Byb2RAZG9tYWluIgp9Cm5vdGlmaWNhdGlvbnMg``
-       ``PSB7CiAgYmlsbGluZyAgICA9ICJhd3MrYmVkcm``
-       ``9jay5iaWxsaW5nQGRvbWFpbiIKICBvcGVyYXRp``
-       ``b25zID0gImF3cytiZWRyb2NrLm9wZXJhdGlvbn``
-       ``NAZG9tYWluIgogIHNlY3VyaXR5ICAgPSAiYXdz``
-       ``K2JlZHJvY2suc2VjdXJpdHlAZG9tYWluIgp9``
+     - | ``dW5pcXVlX3ByZWZpeCA9ICJpbmRpZ29jYXB5Ym``
+       | ``FyYSIgIApiYXNlX3JlZ2lvbiA9ICJhcC1zb3V0``
+       | ``aGVhc3QtMiIKcm9vdF9lbWFpbHMgPSB7CiAgIl``
+       | ``NlY3VyaXR5IiAgID0gImF3cytiZWRyb2NrLnNl``
+       | ``Y0Bkb21haW4iCiAgIlNoYXJlZCIgICAgID0gIm``
+       | ``F3cytiZWRyb2NrLnNoYXJlZEBkb21haW4iCiAg``
+       | ``IlByb2R1Y3Rpb24iID0gImF3cytiZWRyb2NrLn``
+       | ``Byb2RAZG9tYWluIgp9Cm5vdGlmaWNhdGlvbnMg``
+       | ``PSB7CiAgYmlsbGluZyAgICA9ICJhd3MrYmVkcm``
+       | ``9jay5iaWxsaW5nQGRvbWFpbiIKICBvcGVyYXRp``
+       | ``b25zID0gImF3cytiZWRyb2NrLm9wZXJhdGlvbn``
+       | ``NAZG9tYWluIgogIHNlY3VyaXR5ICAgPSAiYXdz``
+       | ``K2JlZHJvY2suc2VjdXJpdHlAZG9tYWluIgp9``
      - | Single line Base64 version of the ``terraform.tfvars``
    * - ``ENCKEY``
      - Password123!
