@@ -32,7 +32,7 @@ Management AWS Account
 The landing zone will need the initial AWS account to be created. All other sub accounts are created as part of the CI/CD process
 
 
-Add The Variables in your Git Secrets
+Add Secrets to your Git Secrets
 -------------------------------------
 
 .. list-table:: Git Secrets/Variables to set
@@ -50,8 +50,9 @@ Add The Variables in your Git Secrets
        | ``wogICAgcmVnaW9uICAgICAgICAgPSAiYXAtc2``
        | ``91dGhlYXN0LTIiCiAgICBkeW5hbW9kYl90YWJ``
        | ``sZSA9ICJiZWRyb2NrLXRmc3RhdGUiCiAgfQp9``
-     - | Single line Base64 version of the ``remote_state.tf``
-       | Note that Key and Bucket are not included. 
+     - | Single line Base64 version of 
+        `terraform {}` block 
+       | Note that Key, Workspace and Bucket are not included. GitOps will provide those
    * - ``BEDROCK_TF_VARS`` (Optional)
      - | ``dW5pcXVlX3ByZWZpeCA9ICJpbmRpZ29jYXB5Ym``
        | ``FyYSIgIApiYXNlX3JlZ2lvbiA9ICJhcC1zb3V0``

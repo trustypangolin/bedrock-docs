@@ -160,3 +160,4 @@ cython_debug/
 docs/source/_build/html/
 
 .DS_Store
+._*
